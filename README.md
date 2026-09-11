@@ -29,73 +29,31 @@
 
 ## 🎯 Objetivo
 
-Desarrollar una solución tecnológica capaz de **automatizar el riego de cultivos**, utilizando información obtenida mediante sensores para tomar decisiones eficientes y reducir el desperdicio de agua.
+> 🌱 *Desarrollar una solución tecnológica inteligente capaz de automatizar el riego de cultivos, utilizando información obtenida mediante sensores para tomar decisiones eficientes, mejorar el cuidado de los cultivos y reducir el desperdicio de agua.*
 
-### Principales objetivos
+### 🚀 Principales objetivos
 
-- 💧 Monitorear la humedad del suelo.
-- 🌦️ Analizar las condiciones climáticas.
-- 🤖 Automatizar el proceso de riego.
-- 🚰 Controlar motores y bombas de agua.
-- ⚠️ Generar alertas.
-- 📊 Registrar y analizar información.
-- 💦 Optimizar el consumo de agua.
+> 💧 **Monitoreo del suelo**  
+> Supervisar constantemente los niveles de humedad para conocer las necesidades de agua de los cultivos.
 
----
+> 🌦️ **Análisis climático**  
+> Obtener y analizar información sobre las condiciones ambientales que pueden influir en el proceso de riego.
 
-## ⚙️ Tecnologías
+> 🤖 **Riego automatizado**  
+> Automatizar la activación y desactivación del sistema de riego según la información obtenida.
 
-<div align="center">
+> 🚰 **Control de motores y bombas**  
+> Gestionar el funcionamiento de los motores y bombas de agua utilizados durante el proceso de riego.
 
-| Tecnología | Función |
-|:---:|:---|
-| **Java 21** | Lógica principal del sistema |
-| **JavaFX** | Interfaz gráfica |
-| **Arduino** | Lectura de sensores y control físico |
-| **MySQL** | Gestión de datos |
-| **JDBC** | Conexión con la base de datos |
-| **Maven** | Gestión del proyecto |
-| **Git / GitHub** | Control de versiones |
+> ⚠️ **Sistema de alertas**  
+> Generar alertas cuando se presenten condiciones que requieran atención o intervención.
 
-</div>
+> 📊 **Registro y análisis de datos**  
+> Almacenar y analizar la información generada para facilitar el seguimiento y control del sistema.
+
+> 💦 **Optimización del agua**  
+> Utilizar el agua de manera más eficiente, reduciendo el desperdicio y suministrando únicamente la cantidad necesaria.
 
 ---
 
-## 💧 Funcionamiento
 
-```text
-🌱 Cultivo
-    │
-    ▼
-💧 Sensor de humedad
-    │
-    ▼
-🤖 Arduino
-    │
-    ▼
-📡 Comunicación Serial
-    │
-    ▼
-☕ Java 21
-    │
-    ├── 🌦️ Condiciones climáticas
-    │
-    ├── 💧 Nivel de humedad
-    │
-    ▼
-🧠 Decisión de riego
-    │
-    ▼
-🚰 Activar motor
-    │
-    ▼
-🎯 Alcanzar humedad objetivo
-    │
-    ▼
-🛑 Detener motor
-    │
-    ▼
-💾 Guardar información
-    │
-    ▼
-📊 Generar estadísticas
