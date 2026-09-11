@@ -2,61 +2,99 @@
 
 # 🌱 AgroSmirt
 
-### Smart Agriculture & Automated Irrigation System
+### Sistema Inteligente de Monitoreo y Riego de Cultivos
 
 <p>
-  <strong>Monitoreo inteligente · Riego automatizado · Gestión eficiente del agua</strong>
+  <em>
+    Tecnología · Automatización · Agricultura Inteligente
+  </em>
 </p>
-
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=4CAF50&center=true&vCenter=true&width=700&lines=Smart+Agriculture+System;Automated+Irrigation;Real-Time+Crop+Monitoring;Arduino+%2B+Java+21+%2B+MySQL" alt="Typing SVG" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-<img src="https://img.shields.io/badge/JavaFX-21-4285F4?style=flat-square&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Status-In%20Development-F4C430?style=for-the-badge">
-<img src="https://img.shields.io/badge/Project-Academic-4CAF50?style=for-the-badge">
 
 </div>
 
 ---
 
-## 🌿 About the Project
+## 🌿 Sobre AgroSmirt
 
-**AgroSmirt** is a smart agricultural system designed to monitor crop conditions and automate the irrigation process.
+**AgroSmirt** es un sistema inteligente diseñado para el **monitoreo y automatización del riego de cultivos**.
 
-The system collects real-time information through sensors connected to **Arduino**, processes the data using **Java 21**, and stores the information in **MySQL**.
+El sistema utiliza sensores conectados a **Arduino** para obtener información en tiempo real sobre la humedad del suelo y las condiciones ambientales.
 
-Based on soil moisture and environmental conditions, AgroSmirt determines when irrigation is necessary and can automatically activate or stop the corresponding water pump.
+Los datos son procesados mediante **Java 21** y almacenados en **MySQL**, permitiendo tomar decisiones automáticas sobre el proceso de riego.
 
-> **The goal is simple: use technology to make irrigation smarter, more efficient and sustainable.**
-
----
-
-## 🎯 Project Objective
-
-Develop a technological solution capable of **automating crop irrigation** through real-time sensor monitoring and intelligent decision-making.
-
-AgroSmirt aims to:
-
-- Monitor soil moisture in real time.
-- Analyze environmental conditions.
-- Detect when a crop requires irrigation.
-- Automatically activate and stop irrigation.
-- Generate system alerts.
-- Record irrigation history.
-- Estimate water consumption.
-- Generate statistics and reports.
-- Store historical information in a database.
+> 💡 **Nuestro propósito:** utilizar la tecnología para optimizar el uso del agua y mejorar el cuidado de los cultivos.
 
 ---
 
+## 🎯 Objetivo
+
+Desarrollar una solución tecnológica capaz de **automatizar el riego de cultivos**, utilizando información obtenida mediante sensores para tomar decisiones eficientes y reducir el desperdicio de agua.
+
+### Principales objetivos
+
+- 💧 Monitorear la humedad del suelo.
+- 🌦️ Analizar las condiciones climáticas.
+- 🤖 Automatizar el proceso de riego.
+- 🚰 Controlar motores y bombas de agua.
+- ⚠️ Generar alertas.
+- 📊 Registrar y analizar información.
+- 💦 Optimizar el consumo de agua.
+
+---
+
+## ⚙️ Tecnologías
+
+<div align="center">
+
+| Tecnología | Función |
+|:---:|:---|
+| **Java 21** | Lógica principal del sistema |
+| **JavaFX** | Interfaz gráfica |
+| **Arduino** | Lectura de sensores y control físico |
+| **MySQL** | Gestión de datos |
+| **JDBC** | Conexión con la base de datos |
+| **Maven** | Gestión del proyecto |
+| **Git / GitHub** | Control de versiones |
+
+</div>
+
+---
+
+## 💧 Funcionamiento
+
+```text
+🌱 Cultivo
+    │
+    ▼
+💧 Sensor de humedad
+    │
+    ▼
+🤖 Arduino
+    │
+    ▼
+📡 Comunicación Serial
+    │
+    ▼
+☕ Java 21
+    │
+    ├── 🌦️ Condiciones climáticas
+    │
+    ├── 💧 Nivel de humedad
+    │
+    ▼
+🧠 Decisión de riego
+    │
+    ▼
+🚰 Activar motor
+    │
+    ▼
+🎯 Alcanzar humedad objetivo
+    │
+    ▼
+🛑 Detener motor
+    │
+    ▼
+💾 Guardar información
+    │
+    ▼
+📊 Generar estadísticas
