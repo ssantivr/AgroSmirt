@@ -1,43 +1,62 @@
-<!-- ====================================================== -->
-<!--                  🌱 AGROSMIRT README                  -->
-<!-- ====================================================== -->
-
 <div align="center">
 
-<h1 style="font-size: 3em;">🌱 AgroSmirt 💧</h1>
+# 🌱 AgroSmirt
 
-<h3>🤖 Sistema Inteligente de Monitoreo y Riego de Cultivos</h3>
-
-<p>
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=4CAF50&center=true&vCenter=true&width=750&lines=Riego+inteligente+para+cultivos+%F0%9F%8C%B1;Monitoreo+en+tiempo+real+%F0%9F%92%A7;Arduino+%2B+Java+%2B+MySQL+%F0%9F%A4%96;Tecnolog%C3%ADa+para+cultivar+mejor+%F0%9F%8C%BF" alt="Typing SVG" />
-</p>
+### Smart Agriculture & Automated Irrigation System
 
 <p>
-  <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaFX-UI-blue?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-IoT-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <strong>Monitoreo inteligente · Riego automatizado · Gestión eficiente del agua</strong>
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Maven-Build-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
-  <img src="https://img.shields.io/badge/JDBC-Connection-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-GitHub-F05032?style=for-the-badge&logo=git&logoColor=white" />
-</p>
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=4CAF50&center=true&vCenter=true&width=700&lines=Smart+Agriculture+System;Automated+Irrigation;Real-Time+Crop+Monitoring;Arduino+%2B+Java+21+%2B+MySQL" alt="Typing SVG" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Java-21-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+<img src="https://img.shields.io/badge/JavaFX-21-4285F4?style=flat-square&logo=java&logoColor=white">
+<img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Status-In%20Development-F4C430?style=for-the-badge">
+<img src="https://img.shields.io/badge/Project-Academic-4CAF50?style=for-the-badge">
 
 </div>
 
 ---
 
-# 🌿 ¿Qué es AgroSmirt?
+## 🌿 About the Project
 
-**AgroSmirt** es un sistema inteligente diseñado para **monitorear las condiciones de un cultivo y automatizar el proceso de riego**.
+**AgroSmirt** is a smart agricultural system designed to monitor crop conditions and automate the irrigation process.
 
-El sistema utiliza sensores conectados a **Arduino** para obtener información en tiempo real sobre la humedad del suelo y las condiciones ambientales.
+The system collects real-time information through sensors connected to **Arduino**, processes the data using **Java 21**, and stores the information in **MySQL**.
 
-Estos datos son enviados a una aplicación desarrollada con **Java 21 y JavaFX**, donde son analizados para determinar cuándo un cultivo necesita agua.
+Based on soil moisture and environmental conditions, AgroSmirt determines when irrigation is necessary and can automatically activate or stop the corresponding water pump.
 
-> 🌱 **AgroSmirt combina agricultura, tecnología y automatización para hacer más eficiente el uso del agua.**
+> **The goal is simple: use technology to make irrigation smarter, more efficient and sustainable.**
+
+---
+
+## 🎯 Project Objective
+
+Develop a technological solution capable of **automating crop irrigation** through real-time sensor monitoring and intelligent decision-making.
+
+AgroSmirt aims to:
+
+- Monitor soil moisture in real time.
+- Analyze environmental conditions.
+- Detect when a crop requires irrigation.
+- Automatically activate and stop irrigation.
+- Generate system alerts.
+- Record irrigation history.
+- Estimate water consumption.
+- Generate statistics and reports.
+- Store historical information in a database.
 
 ---
 
