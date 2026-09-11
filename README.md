@@ -16,14 +16,15 @@
 
 ## 🌿 Sobre AgroSmirt
 
-**AgroSmirt** es un sistema inteligente diseñado para el **monitoreo y automatización del riego de cultivos**.
-
-El sistema utiliza sensores conectados a **Arduino** para obtener información en tiempo real sobre la humedad del suelo y las condiciones ambientales.
-
-Los datos son procesados mediante **Java 21** y almacenados en **MySQL**, permitiendo tomar decisiones automáticas sobre el proceso de riego.
-
-> 💡 **Nuestro propósito:** utilizar la tecnología para optimizar el uso del agua y mejorar el cuidado de los cultivos.
-
+> 🌱 *AgroSmirt es un sistema inteligente diseñado para el monitoreo y automatización del riego de cultivos.*
+>
+> 💧 *El sistema utiliza sensores conectados a Arduino para obtener información en tiempo real sobre la humedad del suelo y las condiciones ambientales.*
+>
+> 🤖 *Los datos obtenidos son procesados mediante Java 21, permitiendo analizar la información y tomar decisiones automáticas sobre el proceso de riego.*
+>
+> 🗄️ *La información recopilada es almacenada en MySQL, facilitando la gestión y conservación de los datos generados por el sistema.*
+>
+> 🚀 *Nuestro propósito es utilizar la tecnología para optimizar el uso del agua y mejorar el cuidado de los cultivos.*
 ---
 
 ## 🎯 Objetivo
